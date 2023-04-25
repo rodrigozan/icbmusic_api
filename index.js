@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 mongoose.connect(
-  "mongodb+srv://rodrigozandonadidev_blog:Seilad12@blog-rodzan-webdev.244r5ze.mongodb.net",
+  "mongodb+srv://rodrigozandonadidev_blog:Seilad12@blog-rodzan-webdev.244r5ze.mongodb.net/icbmusic",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
